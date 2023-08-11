@@ -1,0 +1,97 @@
+.newsletter {
+  padding: 50px 0px;
+  background-color: white;
+}
+
+.community-section {
+  padding: 25px 25px;
+  background-color: lightblue;
+}
+
+.hero-image {
+  height: auto;
+  width: 100%;
+  padding: 80px 0px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-top {
+  height: 200px;
+  width: auto;
+}
+
+.text-end {
+  margin: 5px 10px 5px 10px;
+}
+
+.card {
+  margin: 10px 10px 10px 10px;
+}
+
+.scene {
+  display: flex;
+  justify-content: center;
+}
+
+.direction {
+  text-decoration: underline;
+}
+
+.walk {
+  padding: 15px 15px 15px 40px;
+}
+.visit {
+  padding: 15px 15px 15px 40px;
+}
+.gallery {
+  padding: 15px 15px 15px 40px;
+}
+
+footer {
+  background-color: lightblue;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.text-muted {
+  display: flex;
+  justify-content: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
