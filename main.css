@@ -28,6 +28,12 @@ h1 {
   justify-content: center;
 }
 
+.nav-link{
+  padding: 6px 12px;
+}
+
+
+
 .card-img-top {
   height: 200px;
   width: auto;
@@ -98,4 +104,16 @@ footer {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+@media only screen and (max-width:576px) {
+  .dropdown-menu.show{
+    border: none !important;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .dropdown-menu.show{
+    border: none !important;
+  }
 }
