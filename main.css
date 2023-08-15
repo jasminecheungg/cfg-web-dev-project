@@ -16,9 +16,13 @@
 
 .hero-image {
   height: 700px;
-  width: 100%;
+  background-image: url(http://127.0.0.1:5500/coast-path-from-lundy-bay-1330111.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+.hero-title {
+  color: white;
+}
 .row {
   padding: 25px 0px;
 }
@@ -57,6 +61,10 @@ h2 {
   height: 230px;
   width: 360px;
   object-fit: cover;
+  opacity: 0.8;
+}
+.img-thumbnail:hover {
+  opacity: 1;
 }
 
 .text-end {
@@ -126,13 +134,22 @@ footer {
   color: white;
 }
 
+/* xs screens /mobile */
 @media only screen and (max-width: 576px) {
   .dropdown-menu.show {
     border: none !important;
   }
 }
 
+/* md screens / smaller tablets */
 @media only screen and (max-width: 768px) {
+  .dropdown-menu.show {
+    border: none !important;
+  }
+}
+
+/* lg screens / standard tablets  */
+@media only screen and (max-width: 992px) {
   .dropdown-menu.show {
     border: none !important;
   }
